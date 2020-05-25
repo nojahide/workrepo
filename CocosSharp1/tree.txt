@@ -1,0 +1,318 @@
+
+C:.
+│  CocosSharp1.sln
+│
+├─CocosSharp1.Droid
+│  │  CocosSharp1.Droid.csproj
+│  │  packages.config
+│  │  Program.cs
+│  │
+│  ├─Assets
+│  │  │  AboutAssets.txt
+│  │  │
+│  │  └─Content
+│  │      └─fonts
+│  │              MarkerFelt-22.xnb
+│  │
+│  ├─bin
+│  │  └─Android
+│  │      └─Debug
+│  │              box2d.dll
+│  │              CocosSharp.dll
+│  │              CocosSharp.xml
+│  │              CocosSharp1.Droid.dll
+│  │              CocosSharp1.Droid.pdb
+│  │              Lidgren.Network.dll
+│  │              Lidgren.Network.xml
+│  │              MonoGame.Framework.dll
+│  │              MonoGame.Framework.xml
+│  │
+│  ├─obj
+│  │  └─Debug
+│  │      │  aapt2.version
+│  │      │  CocosSharp1.Droid.csprojAssemblyReference.cache
+│  │      │  DesignTimeResolveAssemblyReferencesInput.cache
+│  │      │  MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+│  │      │
+│  │      ├─90
+│  │      │  │  aapt2.version
+│  │      │  │  adb.props
+│  │      │  │  build.props
+│  │      │  │  CocosSharp1.Droid.csproj.CopyComplete
+│  │      │  │  CocosSharp1.Droid.csproj.CoreCompileInputs.cache
+│  │      │  │  CocosSharp1.Droid.csproj.FileListAbsolute.txt
+│  │      │  │  CocosSharp1.Droid.csprojAssemblyReference.cache
+│  │      │  │  CocosSharp1.Droid.dll
+│  │      │  │  CocosSharp1.Droid.pdb
+│  │      │  │  customview-map.txt
+│  │      │  │  DesignTimeResolveAssemblyReferencesInput.cache
+│  │      │  │  libraryimports.cache
+│  │      │  │  libraryprojectimports.cache
+│  │      │  │  MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+│  │      │  │  packagenamingpolicy.props
+│  │      │  │  R.cs.flag
+│  │      │  │  R.txt
+│  │      │  │  res.flag
+│  │      │  │  _TelemetryProps
+│  │      │  │
+│  │      │  ├─designtime
+│  │      │  │      build.props
+│  │      │  │      libraryprojectimports.cache
+│  │      │  │      Resource.designer.cs
+│  │      │  │
+│  │      │  ├─flata
+│  │      │  │      compiled.flata
+│  │      │  │      _CompileResources.stamp
+│  │      │  │
+│  │      │  ├─lp
+│  │      │  │  │  map.cache
+│  │      │  │  │
+│  │      │  │  └─3
+│  │      │  │      └─nl
+│  │      │  │          ├─armeabi
+│  │      │  │          │      libopenal32.so
+│  │      │  │          │
+│  │      │  │          ├─armeabi-v7a
+│  │      │  │          │      libopenal32.so
+│  │      │  │          │
+│  │      │  │          └─x86
+│  │      │  │                  libopenal32.so
+│  │      │  │
+│  │      │  ├─res
+│  │      │  │  ├─drawable
+│  │      │  │  │      icon.png
+│  │      │  │  │      splash.png
+│  │      │  │  │
+│  │      │  │  └─values
+│  │      │  │          strings.xml
+│  │      │  │          styles.xml
+│  │      │  │
+│  │      │  ├─stamp
+│  │      │  │      _BuildLibraryImportsCache.stamp
+│  │      │  │      _CleanIntermediateIfNuGetsChange.stamp
+│  │      │  │      _ConvertResourcesCases.stamp
+│  │      │  │      _ResolveLibraryProjectImports.stamp
+│  │      │  │
+│  │      │  └─TempPE
+│  │      ├─designtime
+│  │      │      build.props
+│  │      │      libraryprojectimports.cache
+│  │      │      Resource.designer.cs
+│  │      │
+│  │      ├─lp
+│  │      ├─stamp
+│  │      │      _ResolveLibraryProjectImports.stamp
+│  │      │
+│  │      └─TempPE
+│  ├─Properties
+│  │      AssemblyInfo.cs
+│  │
+│  └─Resources
+│      │  AboutResources.txt
+│      │  Resource.Designer.cs
+│      │
+│      ├─Drawable
+│      │      icon.png
+│      │      Splash.png
+│      │
+│      ├─Layout
+│      └─Values
+│              Strings.xml
+│              Styles.xml
+│
+├─CocosSharp1.iOS
+│  │  CocosSharp1.iOS.csproj
+│  │  Game.ico
+│  │  GameThumbnail.png
+│  │  Info.plist
+│  │  packages.config
+│  │  Program.cs
+│  │
+│  ├─bin
+│  │  ├─iPhone
+│  │  │  └─Debug
+│  │  └─iPhoneSimulator
+│  │      └─Debug
+│  ├─Content
+│  │  └─fonts
+│  │          MarkerFelt-22.xnb
+│  │
+│  ├─obj
+│  │  ├─iPhone
+│  │  │  └─Debug
+│  │  │      │  CocosSharp1.iOS.csprojAssemblyReference.cache
+│  │  │      │  DesignTimeResolveAssemblyReferencesInput.cache
+│  │  │      │
+│  │  │      └─TempPE
+│  │  └─iPhoneSimulator
+│  │      └─Debug
+│  └─Properties
+│          AssemblyInfo.cs
+│
+├─CocosSharp1.Shared
+│      AppDelegate.cs
+│      CocosSharp1.Shared.shproj
+│      EmptyProject.Shared.projitems
+│      IntroLayer.cs
+│
+└─packages
+    └─CocosSharp.PCL.Shared.1.5.0.1
+        │  CocosSharp.PCL.Shared.1.5.0.1.nupkg
+        │
+        ├─build
+        │  └─wp8
+        │      │  CocosSharp.PCL.Shared.targets
+        │      │
+        │      ├─ARM
+        │      │      box2d.dll
+        │      │      CocosSharp.dll
+        │      │      CocosSharp.XML
+        │      │      MonoGame.Framework.dll
+        │      │      MonoGame.Framework.Net.dll
+        │      │      MonoGame.Framework.Net.xml
+        │      │      MonoGame.Framework.xml
+        │      │      SharpDX.Direct3D11.dll
+        │      │      SharpDX.Direct3D11.xml
+        │      │      SharpDX.dll
+        │      │      SharpDX.DXGI.dll
+        │      │      SharpDX.DXGI.xml
+        │      │      SharpDX.MediaFoundation.dll
+        │      │      SharpDX.MediaFoundation.xml
+        │      │      SharpDX.WP8.dll
+        │      │      SharpDX.WP8.winmd
+        │      │      SharpDX.XAudio2.dll
+        │      │      SharpDX.XAudio2.xml
+        │      │      SharpDX.xml
+        │      │
+        │      └─x86
+        │              box2d.dll
+        │              CocosSharp.dll
+        │              CocosSharp.XML
+        │              MonoGame.Framework.dll
+        │              MonoGame.Framework.Net.dll
+        │              MonoGame.Framework.Net.xml
+        │              MonoGame.Framework.xml
+        │              SharpDX.Direct3D11.dll
+        │              SharpDX.Direct3D11.xml
+        │              SharpDX.dll
+        │              SharpDX.DXGI.dll
+        │              SharpDX.DXGI.xml
+        │              SharpDX.MediaFoundation.dll
+        │              SharpDX.MediaFoundation.xml
+        │              SharpDX.WP8.dll
+        │              SharpDX.WP8.winmd
+        │              SharpDX.XAudio2.dll
+        │              SharpDX.XAudio2.xml
+        │              SharpDX.xml
+        │
+        └─lib
+            ├─MonoAndroid10
+            │      box2d.dll
+            │      CocosSharp.dll
+            │      CocosSharp.XML
+            │      Lidgren.Network.dll
+            │      Lidgren.Network.xml
+            │      MonoGame.Framework.dll
+            │      MonoGame.Framework.xml
+            │
+            ├─net40
+            │      BitMiracle.LibTiff.NET.dll
+            │      box2d.dll
+            │      box2d.pdb
+            │      CocosSharp.dll
+            │      CocosSharp.pdb
+            │      CocosSharp.XML
+            │      Lidgren.Network.dll
+            │      Lidgren.Network.xml
+            │      MonoGame.Framework.dll
+            │      MonoGame.Framework.Net.dll
+            │      MonoGame.Framework.Net.xml
+            │      MonoGame.Framework.xml
+            │      SharpDX.Direct2D1.dll
+            │      SharpDX.Direct2D1.xml
+            │      SharpDX.Direct3D11.dll
+            │      SharpDX.Direct3D11.xml
+            │      SharpDX.Direct3D9.dll
+            │      SharpDX.Direct3D9.xml
+            │      SharpDX.dll
+            │      SharpDX.DXGI.dll
+            │      SharpDX.DXGI.xml
+            │      SharpDX.MediaFoundation.dll
+            │      SharpDX.MediaFoundation.xml
+            │      SharpDX.RawInput.dll
+            │      SharpDX.RawInput.xml
+            │      SharpDX.XAudio2.dll
+            │      SharpDX.XAudio2.xml
+            │      SharpDX.XInput.dll
+            │      SharpDX.XInput.xml
+            │      SharpDX.xml
+            │
+            ├─netcore
+            │  │  box2d.dll
+            │  │  CocosSharp.dll
+            │  │  CocosSharp.XML
+            │  │  MonoGame.Framework.dll
+            │  │  MonoGame.Framework.Net.dll
+            │  │  MonoGame.Framework.Net.pri
+            │  │  MonoGame.Framework.Net.xml
+            │  │  MonoGame.Framework.pri
+            │  │  MonoGame.Framework.xml
+            │  │  SharpDX.D3DCompiler.dll
+            │  │  SharpDX.D3DCompiler.xml
+            │  │  SharpDX.Direct2D1.dll
+            │  │  SharpDX.Direct2D1.xml
+            │  │  SharpDX.Direct3D11.dll
+            │  │  SharpDX.Direct3D11.xml
+            │  │  SharpDX.dll
+            │  │  SharpDX.DXGI.dll
+            │  │  SharpDX.DXGI.xml
+            │  │  SharpDX.MediaFoundation.dll
+            │  │  SharpDX.MediaFoundation.xml
+            │  │  SharpDX.XAudio2.dll
+            │  │  SharpDX.XAudio2.xml
+            │  │  SharpDX.XInput.dll
+            │  │  SharpDX.XInput.xml
+            │  │  SharpDX.xml
+            │  │
+            │  └─MonoGame.Framework
+            │      └─Themes
+            │              generic.xaml
+            │
+            ├─portable-net45+win+wpa81+wp80
+            │      box2d.dll
+            │      CocosSharp.dll
+            │      MonoGame.Framework.dll
+            │
+            ├─wpa81
+            │      box2d.dll
+            │      CocosSharp.dll
+            │      CocosSharp.XML
+            │      MonoGame.Framework.dll
+            │      MonoGame.Framework.Net.dll
+            │      MonoGame.Framework.Net.xml
+            │      MonoGame.Framework.xml
+            │      SharpDX.Direct2D1.dll
+            │      SharpDX.Direct2D1.xml
+            │      SharpDX.Direct3D11.dll
+            │      SharpDX.Direct3D11.xml
+            │      SharpDX.dll
+            │      SharpDX.DXGI.dll
+            │      SharpDX.DXGI.xml
+            │      SharpDX.MediaFoundation.dll
+            │      SharpDX.MediaFoundation.xml
+            │      SharpDX.XAudio2.dll
+            │      SharpDX.XAudio2.xml
+            │      SharpDX.xml
+            │
+            └─Xamarin.iOS10
+                    box2d.dll
+                    CocosSharp.dll
+                    CocosSharp.XML
+                    Lidgren.Network.dll
+                    Lidgren.Network.xml
+                    MonoGame.Framework.dll
+                    MonoGame.Framework.Net.dll
+                    MonoGame.Framework.Net.xml
+                    MonoGame.Framework.xml
+
+
